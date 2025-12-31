@@ -1,0 +1,6 @@
+@TR.Connector.ServiceMockup_HostAddress = http://localhost:5157/api/v1
+
+POST {{TR.Connector.ServiceMockup_HostAddress}}/users/Logo
+Accept: application/json
+
+###
