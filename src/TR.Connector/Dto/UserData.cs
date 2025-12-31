@@ -4,7 +4,7 @@ namespace TR.Connector.Dto
 {
 	internal class UserData
 	{
-        [JsonRequired, JsonPropertyName("lastName")]
+        [JsonRequired, JsonPropertyName("firstName")]
         public required string FirstName { get; set; }
 
         [JsonRequired, JsonPropertyName("middleName")]
